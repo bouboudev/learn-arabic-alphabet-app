@@ -1,0 +1,32 @@
+const arabicAlphabet = [
+    { isolated: 'ا', initial: 'ا', middle: 'ا', final: 'ا', name: 'alif' },
+    { isolated: 'ب', initial: 'بـ', middle: 'ـبـ', final: 'ـب', name: 'ba' },
+    { isolated: 'ت', initial: 'تـ', middle: 'ـتـ', final: 'ـت', name: 'ta' },
+    { isolated: 'ث', initial: 'ثـ', middle: 'ـثـ', final: 'ـث', name: 'tha' },
+    { isolated: 'ج', initial: 'جـ', middle: 'ـجـ', final: 'ـج', name: 'djim' },
+    { isolated: 'ح', initial: 'حـ', middle: 'ـحـ', final: 'ـح', name: '7a' },
+    { isolated: 'خ', initial: 'خـ', middle: 'ـخـ', final: 'ـخ', name: 'kha' },
+    { isolated: 'د', initial: 'د', middle: 'د', final: 'د', name: 'del' },
+    { isolated: 'ذ', initial: 'ذ', middle: 'ذ', final: 'ذ', name: 'dzel' },
+    { isolated: 'ر', initial: 'ر', middle: 'ر', final: 'ر', name: 'ra' },
+    { isolated: 'ز', initial: 'ز', middle: 'ز', final: 'ز', name: 'zei' },
+    { isolated: 'س', initial: 'سـ', middle: 'ـسـ', final: 'ـس', name: 'sin' },
+    { isolated: 'ش', initial: 'شـ', middle: 'ـشـ', final: 'ـش', name: 'shin' },
+    { isolated: 'ص', initial: 'صـ', middle: 'ـصـ', final: 'ـص', name: 'sad' },
+    { isolated: 'ض', initial: 'ضـ', middle: 'ـضـ', final: 'ـض', name: 'dad' },
+    { isolated: 'ط', initial: 'طـ', middle: 'ـطـ', final: 'ـط', name: 'taa' },
+    { isolated: 'ظ', initial: 'ظـ', middle: 'ـظـ', final: 'ـظ', name: 'zaa' },
+    { isolated: 'ع', initial: 'عـ', middle: 'ـعـ', final: 'ـع', name: 'ain' },
+    { isolated: 'غ', initial: 'غـ', middle: 'ـغـ', final: 'ـغ', name: 'ghain' },
+    { isolated: 'ف', initial: 'فـ', middle: 'ـفـ', final: 'ـف', name: 'fa' },
+    { isolated: 'ق', initial: 'قـ', middle: 'ـقـ', final: 'ـق', name: 'qaf' },
+    { isolated: 'ك', initial: 'كـ', middle: 'ـكـ', final: 'ـك', name: 'kaf' },
+    { isolated: 'ل', initial: 'لـ', middle: 'ـلـ', final: 'ـل', name: 'lam' },
+    { isolated: 'م', initial: 'مـ', middle: 'ـمـ', final: 'ـم', name: 'mim' },
+    { isolated: 'ن', initial: 'نـ', middle: 'ـنـ', final: 'ـن', name: 'noun' },
+    { isolated: 'ه', initial: 'هـ', middle: 'ـهـ', final: 'ـه', name: 'ha' },
+    { isolated: 'و', initial: 'و', middle: 'و', final: 'و', name: 'waw' },
+    { isolated: 'ي', initial: 'يـ', middle: 'ـيـ', final: 'ـي', name: 'ya' }
+];
+
+export default arabicAlphabet;
